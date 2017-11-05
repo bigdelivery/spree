@@ -83,7 +83,7 @@ module Spree
         :canceler_id, :observation
       ]
 
-      @@line_item_attributes = [:id, :quantity, :price, :variant_id]
+      @@line_item_attributes = [:id, :quantity, :price, :variant_id, :produced_quantity]
 
       @@option_type_attributes = [:id, :name, :presentation, :position]
 
